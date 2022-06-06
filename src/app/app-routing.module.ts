@@ -9,23 +9,23 @@ const routes:Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'dashboard'
+    redirectTo: ''
   },
   {
     path: 'login',
     component: LoginComponent
   },
   {
-    path: 'dashboard',
+    path: '',
     component: DashboardComponent,
     children:[
       {
         path: '',
         pathMatch: 'prefix',
-        redirectTo: 'content'
+        redirectTo: ''
       },
       {
-        path: 'content',
+        path: '',
         component: ContentComponent,
         children:[
           {
