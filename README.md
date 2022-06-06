@@ -1,18 +1,15 @@
-# Clone project
+# Clone the project
 
 git clone https://github.com/egonz993/angular app
 
-# Installed node_modules
+# Install the node_modules
 
 npm i angular/cli
-npm i jquery
-npm i bootstrap
-npm i sweetalert2
 
-npm i @fortawesome/fontawesome-free --save-dev
+npm i --save jquery bootstrap sweetalert2
 
-npm i datatables.net --save
-npm i datatables.net-dt --save
-npm i angular-datatables --save
-npm i @types/jquery --save-dev
-npm i @types/datatables.net --save-dev
+npm i --save-dev @fortawesome/fontawesome-free
+
+npm i --save datatables.net datatables.net-dt angular-datatables
+
+npm i --save-dev @types/jquery @types/datatables.net
