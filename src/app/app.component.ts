@@ -8,6 +8,7 @@ declare var $: any;
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
   dtOptions: DataTables.Settings = {
     pageLength: 1
   };
@@ -16,8 +17,6 @@ export class AppComponent {
 
 
   ngOnInit(): void {
-
-    
 
   }
 }

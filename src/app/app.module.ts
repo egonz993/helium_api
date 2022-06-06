@@ -4,10 +4,29 @@ import { DataTablesModule } from "angular-datatables";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { PreloaderComponent } from './pages/dashboard/sections/preloader/preloader.component';
+import { ContentComponent } from './pages/dashboard/sections/content/content.component';
+import { ControlbarComponent } from './pages/dashboard/sections/controlbar/controlbar.component';
+import { FootComponent } from './pages/dashboard/sections/foot/foot.component'
+import { AsideComponent } from './pages/dashboard/sections/aside/aside.component';
+import { NavbarComponent } from './pages/dashboard/sections/navbar/navbar.component';
+import { LoginComponent } from './pages/login/login.component';
+import { HomeComponent } from './pages/dashboard/sections/content/home/home.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    PreloaderComponent,
+    ContentComponent,
+    ControlbarComponent,
+    FootComponent,
+    AsideComponent,
+    NavbarComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
