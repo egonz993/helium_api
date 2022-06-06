@@ -1,3 +1,7 @@
+# Clone project
+
+git clone https://github.com/egonz993/angular app
+
 # Installed node_modules
 
 npm i angular/cli
@@ -12,4 +16,3 @@ npm i datatables.net-dt --save
 npm i angular-datatables --save
 npm i @types/jquery --save-dev
 npm i @types/datatables.net --save-dev
-
