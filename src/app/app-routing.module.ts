@@ -31,7 +31,7 @@ const routes:Routes = [
           {
             path: '',
             pathMatch: 'prefix',
-            redirectTo: 'gateways-status'
+            redirectTo: 'home'
           },
           {
             path: 'home',
