@@ -1,6 +1,8 @@
 # Clone the project
 
+git init
 git clone https://github.com/egonz993/angular app
+cd app
 
 # Install the node_modules
 
