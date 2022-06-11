@@ -10,7 +10,7 @@ npm i --save jquery bootstrap sweetalert2
 
 npm i --save-dev @fortawesome/fontawesome-free
 
-npm i --save datatables.net datatables.net-dt angular-datatables
+npm i --save datatables.net datatables.net-dt angular-datatables chart.js
 
 npm i --save-dev @types/jquery @types/datatables.net
 
