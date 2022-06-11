@@ -13,8 +13,8 @@ import { AsideComponent } from './pages/dashboard/sections/aside/aside.component
 import { NavbarComponent } from './pages/dashboard/sections/navbar/navbar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/dashboard/sections/content/home/home.component';
-import { TablesComponent } from './pages/dashboard/sections/components/tables/tables.component';
-import { ChartsComponent } from './pages/dashboard/sections/components/charts/charts.component';
+import { TablesComponent } from './components/tables/tables.component';
+import { ChartsComponent } from './components/charts/charts.component';
 
 
 @NgModule({
