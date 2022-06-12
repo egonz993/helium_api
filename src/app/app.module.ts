@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { DataTablesModule } from "angular-datatables";
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/dashboard/sections/content/home/home.component';
 import { TablesComponent } from './components/tables/tables.component';
 import { ChartsComponent } from './components/charts/charts.component';
+import { HttpClientComponent } from './components/http-client/http-client.component';
 
 
 @NgModule({
@@ -30,12 +32,14 @@ import { ChartsComponent } from './components/charts/charts.component';
     LoginComponent,
     HomeComponent,
     TablesComponent,
-    ChartsComponent
+    ChartsComponent,
+    HttpClientComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DataTablesModule
+    DataTablesModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,11 +5,12 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class HttpClientService {
+  
   constructor(private httpClient : HttpClient) { 
 
   }
   
-  get(url:string, options?:any):any{
+  get(url:string, options?:any){
     return this.httpClient.get(url, options);
   }
 
