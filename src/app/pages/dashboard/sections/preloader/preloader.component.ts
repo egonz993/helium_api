@@ -10,6 +10,9 @@ export class PreloaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      $("#preloader").hide('slow');
+    }, 1000);
   }
 
 }
