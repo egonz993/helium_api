@@ -11,3 +11,4 @@ npm i --save jquery bootstrap sweetalert2 datatables.net datatables.net-dt angul
 npm i --save-dev @fortawesome/fontawesome-free @types/jquery @types/datatables.net
 
 npm i admin-lte
+
